@@ -95,10 +95,10 @@ export default async function Home() {
         data-testid={testIds.HOME_PAGE.HEADER}
       >
         <section className="py-[355px]">
-          <h1 className="tracking-widest">Joey Dixon</h1>
+          <h1 className="tracking-widest">Alexander Anderson</h1>
           <div className="pt-7">
             <div className="tracking-[.4em] text-3xl uppercase">
-              Training with a World Champion
+              Train with the Best
             </div>
           </div>
           <div className="pt-14 flex gap-8 justify-center">
@@ -142,24 +142,18 @@ export default async function Home() {
             </h2>
             <section className="font-open-sans-condensed text-base text-stone-300 tracking-wider">
               <p className="py-3">
-                {`Hi, I’m Joey Dixon and I’m a boxing coach with 15 years of boxing experience and 9 intercontinental cruiserweight titles. 
-                I’ve trained many successful boxers at national and international levels. I love teaching people how to box like a pro,
-                whether they are beginners or advanced fighters.
+                {`Insert your own text here. 
                 `}
               </p>
               <p className="py-3">
-                {`To me, boxing is not only a sport, but also a way of life.
-                It teaches you discipline, resilience, confidence, and self-defense. It also keeps you fit, healthy, and mentally sharp.
-                That’s why I created this business to share my knowledge and skills with you.`}
+                {`Use this space to tell your story, your mission, your values`}
               </p>
               <p className="py-3">
-                {`I have a friendly and supportive approach that will make you feel comfortable and motivated.
-                I also have a wealth of experience and expertise that will make you learn faster and better.
-                No matter what your age, level, or background, I can help you become the best boxer you can be.`}
+                {`or anything else you think is important for your visitors to know about you.`}
               </p>
               <p className="py-3">
-                {`If you are interested in working with me or learning more about me, please feel free to contact me or browse through my website.
-                I look forward to hearing from you and helping you on your boxing journey.`}
+                {`End with something like "If you are interested in working with me or learning more about me, please feel free to contact me.
+                I look forward to hearing from you and helping you on your fitness journey.`}
               </p>
             </section>
             <section className="mt-5">
@@ -217,20 +211,20 @@ export default async function Home() {
             </h2>
             <ul className="grid grid-cols-2 lg:grid-cols-4 gap-16 pb-20 px-2">
               <AchievementItem
-                title="15"
-                tagline="15 YEARS OF BOXING EXPERIENCE"
-              />
-              <AchievementItem
-                title="3"
-                tagline="3 TIMES WBA INTERCONTINENTAL CRUISERWEIGHT"
+                title="100"
+                tagline="100 YEARS OF LIFTING EXPERIENCE"
               />
               <AchievementItem
                 title="4"
-                tagline="4 TIMES WBC INTERCONTINENTAL CRUISERWEIGHT"
+                tagline="4 TIME BEST TRAINER IN PITTSBURGH"
               />
               <AchievementItem
-                title="2"
-                tagline="2 TIMES IBF INTERCONTINENTAL CRUISERWEIGHT"
+                title="5"
+                tagline="5 TIME BEST BAR SPITTER IN THE WORLD"
+              />
+              <AchievementItem
+                title="6"
+                tagline="6 OTHER THINGS IDK"
               />
             </ul>
           </div>
@@ -257,23 +251,23 @@ export default async function Home() {
       <ScrollIntoView hashName="#studio" offset="-90px" />
       <div className="text-center py-24 bg-[url('/home/fitness-background-3.jpg')] parallax-background">
         <div className="mx-auto max-w-md px-2">
-          <h2 className="title tracking-widest">THE STUDIO</h2>
+          <h2 className="title tracking-widest">THE STUDIO (Or Equipment)</h2>
           <div className="pt-7 font-open-sans-condensed text-lg text-stone-300">
-            {`We train in a modern and spacious facility, conveniently located in the heart of San Francisco.
-            We have the equipment, facilities and expertise to take on clients of all ages and experience levels. Come by and check us out!`}
+            {`Talk about what your clients will be working with. Let them know what they are signing up for,
+            and end with something like "Come by and check us out!"`}
           </div>
           <section className="text-center uppercase pt-24 text-stone-200">
             <h4 className="text-3xl tracking-[.4em]">Address</h4>
             <div className="pt-6">
-              <div className="text-2xl">500 Terry A Francois Blvd</div>
-              <div className="text-lg">San Francisco, CA 94158, USA</div>
+              <div className="text-2xl">500 Wherever Drive</div>
+              <div className="text-lg">Pittsburgh, PA, USA</div>
             </div>
           </section>
           <section className="text-center uppercase pt-20 text-stone-200">
             <h4 className="text-3xl tracking-[.4em]">Hours</h4>
             <div className="text-2xl pt-6">
               <div>Monday - Friday</div>
-              <div>6:30AM - 7:00PM</div>
+              <div>7:00AM - 7:00PM</div>
             </div>
           </section>
         </div>
