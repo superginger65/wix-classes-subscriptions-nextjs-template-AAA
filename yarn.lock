@@ -490,9 +490,9 @@
     "@wix/sdk-runtime" "^0.2.10"
     "@wix/sdk-types" "^1.5.11"
 
-"@wix/image-kit@^1.69.0":
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.69.0.tgz#4994435489fe8cd175b46901325c4432ce0c90a7"
+"@wix/image-kit@^1.71.0":
+  version "1.72.0"
+  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.72.0.tgz#9cd49e54d2792860c273dfb0f8ac2ecfe7c2dd0c"
   dependencies:
     "@babel/runtime" "^7.24.7"
     tslib "^2.6.3"
@@ -652,25 +652,38 @@
     "@wix/sdk-runtime" "^0.2.10"
     "@wix/sdk-types" "^1.6.2"
 
+"@wix/sdk-context@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-context/-/sdk-context-0.0.1.tgz#8c1436d382b720f80e72dd0c1c4e0576b6ab3fec"
+
+"@wix/sdk-runtime@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.3.tgz#6e19f4a220cc2ff4979b4a4fb4cdd72f3fbbed1a"
+  dependencies:
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-types" "^1.9.1"
+
 "@wix/sdk-runtime@^0.2.10", "@wix/sdk-runtime@^0.2.12":
   version "0.2.12"
   resolved "https://registry.npmjs.org/@wix/sdk-runtime/-/sdk-runtime-0.2.12.tgz"
   dependencies:
     "@wix/sdk-types" "^1.7.0"
 
-"@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.8.0.tgz#093c1b8d25a8c4eed60c1b66ffc0164bf8fed6ab"
+"@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.9.1.tgz#a5b327f7863a0df0b35e1e2f80138ea5c146c3fd"
 
 "@wix/sdk@^1.5.0":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.10.2.tgz#7c94482642f03525d91e30eb87b06560d8120962"
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.12.1.tgz#45d4b3abe4bb1e485763daaa2a7d30c1b6d52d14"
   dependencies:
     "@babel/runtime" "^7.23.2"
     "@wix/identity" "^1.0.78"
-    "@wix/image-kit" "^1.69.0"
+    "@wix/image-kit" "^1.71.0"
     "@wix/redirects" "^1.0.41"
-    "@wix/sdk-types" "^1.8.0"
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-runtime" "0.3.3"
+    "@wix/sdk-types" "^1.9.1"
     crypto-js "^4.2.0"
     jose "^5.2.1"
     pkce-challenge "^3.1.0"
