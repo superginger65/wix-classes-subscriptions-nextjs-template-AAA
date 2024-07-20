@@ -538,6 +538,12 @@
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+"@wix/metro-public-utils@1.0.31":
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/@wix/metro-public-utils/-/metro-public-utils-1.0.31.tgz#0142f4e5a0dbf09a6ee9f9f7bbe88f81605fc9ea"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 "@wix/metro-runtime@^1.1528.0":
   version "1.1695.0"
   resolved "https://registry.npmjs.org/@wix/metro-runtime/-/metro-runtime-1.1695.0.tgz"
@@ -546,6 +552,19 @@
     "@wix/motion-edm-autogen-p13n" "1.0.64"
     "@wix/motion-edm-autogen-transformations" "1.52.0"
     "@wix/motion-edm-autogen-transformations-core" "1.48.0"
+    lodash "^4.17.21"
+    long "^4.0.0"
+    querystring "^0.2.1"
+
+"@wix/metro-runtime@^1.1696.0":
+  version "1.1757.0"
+  resolved "https://registry.yarnpkg.com/@wix/metro-runtime/-/metro-runtime-1.1757.0.tgz#4ac9cd992ad3aab541d17f7ca22b0a1e368c4d6a"
+  dependencies:
+    "@wix/metro-public-utils" "1.0.31"
+    "@wix/motion-edm-autogen-p13n" "1.0.73"
+    "@wix/motion-edm-autogen-transformations" "1.56.0"
+    "@wix/motion-edm-autogen-transformations-core" "1.50.0"
+    js-base64 "^3.7.7"
     lodash "^4.17.21"
     long "^4.0.0"
     querystring "^0.2.1"
@@ -559,6 +578,15 @@
     lodash "~4.17.0"
     tslib "^2.0.0"
 
+"@wix/motion-edm-autogen-common@1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-common/-/motion-edm-autogen-common-1.46.0.tgz#f674ba2d9eeb6192845930a378b6b2fde8b2ee02"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@wix/motion-edm-autogen-types" "1.0.34"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
 "@wix/motion-edm-autogen-p13n@1.0.64":
   version "1.0.64"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-p13n/-/motion-edm-autogen-p13n-1.0.64.tgz"
@@ -566,6 +594,15 @@
     "@babel/runtime" "^7.0.0"
     "@wix/motion-edm-autogen-types" "1.0.32"
     lodash "~4.17.0"
+
+"@wix/motion-edm-autogen-p13n@1.0.73":
+  version "1.0.73"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-p13n/-/motion-edm-autogen-p13n-1.0.73.tgz#9426b3f7eaee7b46e2a41442739f4680f687c0f4"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@wix/motion-edm-autogen-types" "1.0.34"
+    lodash "~4.17.0"
+    querystring "^0.2.1"
 
 "@wix/motion-edm-autogen-query-wrapper@^1.0.37":
   version "1.0.77"
@@ -592,6 +629,19 @@
     lodash "~4.17.0"
     tslib "^2.0.0"
 
+"@wix/motion-edm-autogen-transformations-core@1.50.0":
+  version "1.50.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-transformations-core/-/motion-edm-autogen-transformations-core-1.50.0.tgz#8d0abefe702b9eaf5d33e8b52651d66a5bb784ab"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@rushstack/eslint-patch" "^1.1.0"
+    "@wix/motion-edm-autogen-common" "1.46.0"
+    constant-case "~3.0.0"
+    deep-for-each "~3.0.0"
+    jsonpath-plus "~5.1.0"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
 "@wix/motion-edm-autogen-transformations@1.52.0":
   version "1.52.0"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-transformations/-/motion-edm-autogen-transformations-1.52.0.tgz"
@@ -608,34 +658,54 @@
     lodash "~4.17.0"
     tslib "^2.0.0"
 
+"@wix/motion-edm-autogen-transformations@1.56.0":
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-transformations/-/motion-edm-autogen-transformations-1.56.0.tgz#d5d30c9c3a589f3cc66fd59e7c488571ec7340d1"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@rushstack/eslint-patch" "^1.1.0"
+    "@wix/motion-edm-autogen-common" "1.46.0"
+    "@wix/motion-edm-autogen-transformations-core" "1.50.0"
+    constant-case "~3.0.0"
+    deep-for-each "~3.0.0"
+    http-status-codes "^2.0.0"
+    js-yaml "~4.1.0"
+    jsonpath-plus "~5.1.0"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
 "@wix/motion-edm-autogen-types@1.0.32":
   version "1.0.32"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.32.tgz"
 
+"@wix/motion-edm-autogen-types@1.0.34":
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.34.tgz#a8b7a5f758e564be2975a93cb47eeb29b5d2f143"
+
 "@wix/pricing-plans@^1.0.17":
-  version "1.0.67"
-  resolved "https://registry.npmjs.org/@wix/pricing-plans/-/pricing-plans-1.0.67.tgz"
+  version "1.0.73"
+  resolved "https://registry.yarnpkg.com/@wix/pricing-plans/-/pricing-plans-1.0.73.tgz#1012a3e442cdbc1d91d06f9d1fac5f4da306dc8e"
   dependencies:
-    "@wix/pricing-plans_orders" "1.0.23"
-    "@wix/pricing-plans_plans" "1.0.23"
+    "@wix/pricing-plans_orders" "1.0.26"
+    "@wix/pricing-plans_plans" "1.0.28"
 
-"@wix/pricing-plans_orders@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.npmjs.org/@wix/pricing-plans_orders/-/pricing-plans_orders-1.0.23.tgz"
+"@wix/pricing-plans_orders@1.0.26":
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/@wix/pricing-plans_orders/-/pricing-plans_orders-1.0.26.tgz#12b443575e1f915b37227c012bc395208c93f19c"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1696.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
     "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-types" "^1.7.1"
 
-"@wix/pricing-plans_plans@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.npmjs.org/@wix/pricing-plans_plans/-/pricing-plans_plans-1.0.23.tgz"
+"@wix/pricing-plans_plans@1.0.28":
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/@wix/pricing-plans_plans/-/pricing-plans_plans-1.0.28.tgz#9e2a0dcf2a62911cba4704460b14cad3d2ce47f2"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1696.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
     "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-types" "^1.7.1"
 
 "@wix/redirects@^1.0.13", "@wix/redirects@^1.0.41":
   version "1.0.46"
@@ -661,6 +731,10 @@
 "@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.8.0.tgz#093c1b8d25a8c4eed60c1b66ffc0164bf8fed6ab"
+
+"@wix/sdk-types@^1.7.1":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.9.2.tgz#80ba659ae66f43b550081aa31913843329b0b78b"
 
 "@wix/sdk@^1.5.0":
   version "1.10.2"
@@ -1948,6 +2022,10 @@ jiti@^1.21.0:
 jose@^5.2.1:
   version "5.3.0"
   resolved "https://registry.npmjs.org/jose/-/jose-5.3.0.tgz"
+
+js-base64@^3.7.7:
+  version "3.7.7"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.7.tgz#e51b84bf78fbf5702b9541e2cb7bfcb893b43e79"
 
 js-cookie@^3.0.1:
   version "3.0.5"
