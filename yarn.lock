@@ -194,10 +194,10 @@
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
 
 "@playwright/test@^1.34.3":
-  version "1.44.1"
-  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.44.1.tgz"
+  version "1.45.3"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.45.3.tgz#22e9c38b3081d6674b28c6e22f784087776c72e5"
   dependencies:
-    playwright "1.44.1"
+    playwright "1.45.3"
 
 "@popperjs/core@^2.9.3":
   version "2.11.8"
@@ -2327,15 +2327,15 @@ pkce-challenge@^3.1.0:
   dependencies:
     crypto-js "^4.1.1"
 
-playwright-core@1.44.1:
-  version "1.44.1"
-  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.44.1.tgz"
+playwright-core@1.45.3:
+  version "1.45.3"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.45.3.tgz#e77bc4c78a621b96c3e629027534ee1d25faac93"
 
-playwright@1.44.1:
-  version "1.44.1"
-  resolved "https://registry.npmjs.org/playwright/-/playwright-1.44.1.tgz"
+playwright@1.45.3:
+  version "1.45.3"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.45.3.tgz#75143f73093a6e1467f7097083d2f0846fb8dd2f"
   dependencies:
-    playwright-core "1.44.1"
+    playwright-core "1.45.3"
   optionalDependencies:
     fsevents "2.3.2"
 
