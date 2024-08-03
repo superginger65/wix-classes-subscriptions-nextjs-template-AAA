@@ -6,9 +6,9 @@
   version "5.2.0"
   resolved "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.15", "@babel/runtime@^7.23.2", "@babel/runtime@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.15", "@babel/runtime@^7.23.2", "@babel/runtime@^7.25.0":
+  version "7.25.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.25.0.tgz#3af9a91c1b739c569d5d80cc917280919c544ecb"
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -490,11 +490,11 @@
     "@wix/sdk-runtime" "^0.2.10"
     "@wix/sdk-types" "^1.5.11"
 
-"@wix/image-kit@^1.69.0":
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.69.0.tgz#4994435489fe8cd175b46901325c4432ce0c90a7"
+"@wix/image-kit@^1.77.0":
+  version "1.78.0"
+  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.78.0.tgz#32b34d1b60404c6300d7198df70ffd68418cbf3d"
   dependencies:
-    "@babel/runtime" "^7.24.7"
+    "@babel/runtime" "^7.25.0"
     tslib "^2.6.3"
 
 "@wix/members@^1.0.38":
@@ -652,27 +652,41 @@
     "@wix/sdk-runtime" "^0.2.10"
     "@wix/sdk-types" "^1.6.2"
 
+"@wix/sdk-context@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-context/-/sdk-context-0.0.1.tgz#8c1436d382b720f80e72dd0c1c4e0576b6ab3fec"
+
+"@wix/sdk-runtime@0.3.14":
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.14.tgz#0cad6f2924da8759f19b4422e5489364f7b314dd"
+  dependencies:
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-types" "^1.9.2"
+
 "@wix/sdk-runtime@^0.2.10", "@wix/sdk-runtime@^0.2.12":
   version "0.2.12"
   resolved "https://registry.npmjs.org/@wix/sdk-runtime/-/sdk-runtime-0.2.12.tgz"
   dependencies:
     "@wix/sdk-types" "^1.7.0"
 
-"@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.8.0.tgz#093c1b8d25a8c4eed60c1b66ffc0164bf8fed6ab"
+"@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.9.2.tgz#80ba659ae66f43b550081aa31913843329b0b78b"
 
 "@wix/sdk@^1.5.0":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.10.2.tgz#7c94482642f03525d91e30eb87b06560d8120962"
+  version "1.12.9"
+  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.12.9.tgz#da92751ae7d741134ef1ea76d331e3b13c3c50a1"
   dependencies:
     "@babel/runtime" "^7.23.2"
     "@wix/identity" "^1.0.78"
-    "@wix/image-kit" "^1.69.0"
+    "@wix/image-kit" "^1.77.0"
     "@wix/redirects" "^1.0.41"
-    "@wix/sdk-types" "^1.8.0"
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-runtime" "0.3.14"
+    "@wix/sdk-types" "^1.9.2"
     crypto-js "^4.2.0"
     jose "^5.2.1"
+    nanoevents "^9.0.0"
     pkce-challenge "^3.1.0"
     querystring "^0.2.1"
     type-fest "^4.9.0"
@@ -2127,6 +2141,10 @@ mz@^2.7.0:
     any-promise "^1.0.0"
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
+
+nanoevents@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-9.0.0.tgz#c44fa7dde1615ac092023d5c881a3ee0b0a8c8fd"
 
 nanoid@^3.3.6, nanoid@^3.3.7:
   version "3.3.7"
