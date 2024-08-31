@@ -313,129 +313,129 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
 
 "@wix/bookings@^1.0.136":
-  version "1.0.369"
-  resolved "https://registry.npmjs.org/@wix/bookings/-/bookings-1.0.369.tgz"
+  version "1.0.429"
+  resolved "https://registry.yarnpkg.com/@wix/bookings/-/bookings-1.0.429.tgz#dce1bda6a3a2aeb90ffa75abe266e1ed2aa001f8"
   dependencies:
-    "@wix/bookings_attendance" "1.0.26"
-    "@wix/bookings_availability-calendar" "1.0.21"
-    "@wix/bookings_availability-time-slots" "1.0.19"
-    "@wix/bookings_bookings" "1.0.31"
-    "@wix/bookings_categories" "1.0.24"
-    "@wix/bookings_extended-bookings" "1.0.20"
-    "@wix/bookings_external-calendars" "1.0.18"
-    "@wix/bookings_multi-service-availability-time-slots" "1.0.18"
-    "@wix/bookings_pricing" "1.0.18"
-    "@wix/bookings_resources" "1.0.22"
-    "@wix/bookings_service-options-and-variants" "1.0.25"
-    "@wix/bookings_services" "1.0.31"
+    "@wix/bookings_attendance" "1.0.45"
+    "@wix/bookings_availability-calendar" "1.0.32"
+    "@wix/bookings_availability-time-slots" "1.0.28"
+    "@wix/bookings_bookings" "1.0.47"
+    "@wix/bookings_categories" "1.0.33"
+    "@wix/bookings_extended-bookings" "1.0.40"
+    "@wix/bookings_external-calendars" "1.0.30"
+    "@wix/bookings_multi-service-availability-time-slots" "1.0.27"
+    "@wix/bookings_pricing" "1.0.30"
+    "@wix/bookings_resources" "1.0.33"
+    "@wix/bookings_service-options-and-variants" "1.0.42"
+    "@wix/bookings_services" "1.0.63"
 
-"@wix/bookings_attendance@1.0.26":
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/@wix/bookings_attendance/-/bookings_attendance-1.0.26.tgz"
+"@wix/bookings_attendance@1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_attendance/-/bookings_attendance-1.0.45.tgz#5ebedc008eea1ec46f5498cb91faf69d55415a65"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_availability-calendar@1.0.21":
-  version "1.0.21"
-  resolved "https://registry.npmjs.org/@wix/bookings_availability-calendar/-/bookings_availability-calendar-1.0.21.tgz"
+"@wix/bookings_availability-calendar@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_availability-calendar/-/bookings_availability-calendar-1.0.32.tgz#6a6fc12017392ef09d80602f469d54f6d798ded7"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_availability-time-slots@1.0.19":
-  version "1.0.19"
-  resolved "https://registry.npmjs.org/@wix/bookings_availability-time-slots/-/bookings_availability-time-slots-1.0.19.tgz"
+"@wix/bookings_availability-time-slots@1.0.28":
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_availability-time-slots/-/bookings_availability-time-slots-1.0.28.tgz#93b4db8bb0b683fa6d19a2d4114dbbc77cda8245"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_bookings@1.0.31":
-  version "1.0.31"
-  resolved "https://registry.npmjs.org/@wix/bookings_bookings/-/bookings_bookings-1.0.31.tgz"
+"@wix/bookings_bookings@1.0.47":
+  version "1.0.47"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_bookings/-/bookings_bookings-1.0.47.tgz#ca73f7f03436489b376069f9468242a37168021b"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_categories@1.0.24":
-  version "1.0.24"
-  resolved "https://registry.npmjs.org/@wix/bookings_categories/-/bookings_categories-1.0.24.tgz"
+"@wix/bookings_categories@1.0.33":
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_categories/-/bookings_categories-1.0.33.tgz#874c59d81bf7bfacce7be38ce3b1b171b4b8125a"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_extended-bookings@1.0.20":
-  version "1.0.20"
-  resolved "https://registry.npmjs.org/@wix/bookings_extended-bookings/-/bookings_extended-bookings-1.0.20.tgz"
+"@wix/bookings_extended-bookings@1.0.40":
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_extended-bookings/-/bookings_extended-bookings-1.0.40.tgz#062a5aefb9e79fe8d49a6230b1cde565b50aa93b"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_external-calendars@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.npmjs.org/@wix/bookings_external-calendars/-/bookings_external-calendars-1.0.18.tgz"
+"@wix/bookings_external-calendars@1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_external-calendars/-/bookings_external-calendars-1.0.30.tgz#908c25065484a4a13c00df9dfedd31eb2b57c1b5"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_multi-service-availability-time-slots@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.npmjs.org/@wix/bookings_multi-service-availability-time-slots/-/bookings_multi-service-availability-time-slots-1.0.18.tgz"
+"@wix/bookings_multi-service-availability-time-slots@1.0.27":
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_multi-service-availability-time-slots/-/bookings_multi-service-availability-time-slots-1.0.27.tgz#b744284f3e824c741dc556d6330af0caff8054fc"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_pricing@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.npmjs.org/@wix/bookings_pricing/-/bookings_pricing-1.0.18.tgz"
+"@wix/bookings_pricing@1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_pricing/-/bookings_pricing-1.0.30.tgz#856dc5a9b32bab415be6771ed2fdf032cf8e3fa2"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_resources@1.0.22":
-  version "1.0.22"
-  resolved "https://registry.npmjs.org/@wix/bookings_resources/-/bookings_resources-1.0.22.tgz"
+"@wix/bookings_resources@1.0.33":
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_resources/-/bookings_resources-1.0.33.tgz#8d0c7a66124393674918d4f8acda8fb5dd7b4bf7"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_service-options-and-variants@1.0.25":
-  version "1.0.25"
-  resolved "https://registry.npmjs.org/@wix/bookings_service-options-and-variants/-/bookings_service-options-and-variants-1.0.25.tgz"
+"@wix/bookings_service-options-and-variants@1.0.42":
+  version "1.0.42"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_service-options-and-variants/-/bookings_service-options-and-variants-1.0.42.tgz#bbb609c70106709a3a242c581a6128a23d90d414"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
-"@wix/bookings_services@1.0.31":
-  version "1.0.31"
-  resolved "https://registry.npmjs.org/@wix/bookings_services/-/bookings_services-1.0.31.tgz"
+"@wix/bookings_services@1.0.63":
+  version "1.0.63"
+  resolved "https://registry.yarnpkg.com/@wix/bookings_services/-/bookings_services-1.0.63.tgz#d9396aad8aef71be45907773d4ec66f21dd1d3ba"
   dependencies:
-    "@wix/metro-runtime" "^1.1528.0"
+    "@wix/metro-runtime" "^1.1792.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.37"
-    "@wix/sdk-runtime" "^0.2.12"
-    "@wix/sdk-types" "^1.6.2"
+    "@wix/sdk-runtime" "^0.3.11"
+    "@wix/sdk-types" "^1.9.2"
 
 "@wix/filter-builder@^1.0.51":
   version "1.0.52"
@@ -538,6 +538,12 @@
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+"@wix/metro-public-utils@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@wix/metro-public-utils/-/metro-public-utils-1.0.32.tgz#224045b5a945edc3ffd6343b04cce2141a2808d7"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 "@wix/metro-runtime@^1.1528.0":
   version "1.1695.0"
   resolved "https://registry.npmjs.org/@wix/metro-runtime/-/metro-runtime-1.1695.0.tgz"
@@ -550,12 +556,33 @@
     long "^4.0.0"
     querystring "^0.2.1"
 
+"@wix/metro-runtime@^1.1792.0":
+  version "1.1794.0"
+  resolved "https://registry.yarnpkg.com/@wix/metro-runtime/-/metro-runtime-1.1794.0.tgz#5e35464e9a510c97bee190e87c58805241cb6032"
+  dependencies:
+    "@wix/metro-public-utils" "1.0.32"
+    "@wix/motion-edm-autogen-p13n" "1.0.76"
+    "@wix/motion-edm-autogen-transformations" "1.57.0"
+    "@wix/motion-edm-autogen-transformations-core" "1.51.0"
+    js-base64 "^3.7.7"
+    lodash "^4.17.21"
+    querystring "^0.2.1"
+
 "@wix/motion-edm-autogen-common@1.44.0":
   version "1.44.0"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-common/-/motion-edm-autogen-common-1.44.0.tgz"
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@wix/motion-edm-autogen-types" "1.0.32"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
+"@wix/motion-edm-autogen-common@1.47.0":
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-common/-/motion-edm-autogen-common-1.47.0.tgz#a53e9ebc6441f2b070944d32daebd2f9bf00b3e2"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@wix/motion-edm-autogen-types" "1.0.35"
     lodash "~4.17.0"
     tslib "^2.0.0"
 
@@ -566,6 +593,15 @@
     "@babel/runtime" "^7.0.0"
     "@wix/motion-edm-autogen-types" "1.0.32"
     lodash "~4.17.0"
+
+"@wix/motion-edm-autogen-p13n@1.0.76":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-p13n/-/motion-edm-autogen-p13n-1.0.76.tgz#036e70bb56a7d946bf63588e32c4b58289a07f16"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@wix/motion-edm-autogen-types" "1.0.35"
+    lodash "~4.17.0"
+    querystring "^0.2.1"
 
 "@wix/motion-edm-autogen-query-wrapper@^1.0.37":
   version "1.0.77"
@@ -592,6 +628,19 @@
     lodash "~4.17.0"
     tslib "^2.0.0"
 
+"@wix/motion-edm-autogen-transformations-core@1.51.0":
+  version "1.51.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-transformations-core/-/motion-edm-autogen-transformations-core-1.51.0.tgz#4e5abe6ac5507e8881e47f3db15ee6092cf17164"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@rushstack/eslint-patch" "^1.1.0"
+    "@wix/motion-edm-autogen-common" "1.47.0"
+    constant-case "~3.0.0"
+    deep-for-each "~3.0.0"
+    jsonpath-plus "~5.1.0"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
 "@wix/motion-edm-autogen-transformations@1.52.0":
   version "1.52.0"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-transformations/-/motion-edm-autogen-transformations-1.52.0.tgz"
@@ -608,9 +657,29 @@
     lodash "~4.17.0"
     tslib "^2.0.0"
 
+"@wix/motion-edm-autogen-transformations@1.57.0":
+  version "1.57.0"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-transformations/-/motion-edm-autogen-transformations-1.57.0.tgz#2c66ba8108837724dbedb03ca52ee636ed87e9c6"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@rushstack/eslint-patch" "^1.1.0"
+    "@wix/motion-edm-autogen-common" "1.47.0"
+    "@wix/motion-edm-autogen-transformations-core" "1.51.0"
+    constant-case "~3.0.0"
+    deep-for-each "~3.0.0"
+    http-status-codes "^2.0.0"
+    js-yaml "~4.1.0"
+    jsonpath-plus "~5.1.0"
+    lodash "~4.17.0"
+    tslib "^2.0.0"
+
 "@wix/motion-edm-autogen-types@1.0.32":
   version "1.0.32"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.32.tgz"
+
+"@wix/motion-edm-autogen-types@1.0.35":
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.35.tgz#2f6365a419b7579f3ee22e302b927b308face765"
 
 "@wix/pricing-plans@^1.0.17":
   version "1.0.67"
@@ -652,15 +721,30 @@
     "@wix/sdk-runtime" "^0.2.10"
     "@wix/sdk-types" "^1.6.2"
 
+"@wix/sdk-context@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-context/-/sdk-context-0.0.1.tgz#8c1436d382b720f80e72dd0c1c4e0576b6ab3fec"
+
 "@wix/sdk-runtime@^0.2.10", "@wix/sdk-runtime@^0.2.12":
   version "0.2.12"
   resolved "https://registry.npmjs.org/@wix/sdk-runtime/-/sdk-runtime-0.2.12.tgz"
   dependencies:
     "@wix/sdk-types" "^1.7.0"
 
+"@wix/sdk-runtime@^0.3.11":
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.16.tgz#fca3c7661fa296c29623a40ddee665a1c6bb8691"
+  dependencies:
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-types" "^1.9.3"
+
 "@wix/sdk-types@^1.5.11", "@wix/sdk-types@^1.6.2", "@wix/sdk-types@^1.7.0", "@wix/sdk-types@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.8.0.tgz#093c1b8d25a8c4eed60c1b66ffc0164bf8fed6ab"
+
+"@wix/sdk-types@^1.9.2", "@wix/sdk-types@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.9.3.tgz#f80a296f460d84314f8ef2d72caaf2c212ca5748"
 
 "@wix/sdk@^1.5.0":
   version "1.10.2"
@@ -1948,6 +2032,10 @@ jiti@^1.21.0:
 jose@^5.2.1:
   version "5.3.0"
   resolved "https://registry.npmjs.org/jose/-/jose-5.3.0.tgz"
+
+js-base64@^3.7.7:
+  version "3.7.7"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.7.tgz#e51b84bf78fbf5702b9541e2cb7bfcb893b43e79"
 
 js-cookie@^3.0.1:
   version "3.0.5"
